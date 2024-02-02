@@ -175,3 +175,18 @@ If you use this codebase, or otherwise found our work valuable, please cite Mamb
   year={2023}
 }
 ```
+
+
+
+
+# Setup
+
+
+Holy fuck this is awful
+
+conda create -n Mamba python=3.10
+conda install cuda-nvcc -c nvidia
+pip install packaging torch torchtext
+pip install .
+
+
